@@ -1,0 +1,29 @@
+{
+  "name": "zayadur.github.io",
+  "version": "2.0.0",
+  "description": "Zayadur's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zayadur/zayadur.github.io.git"
+  },
+  "keywords": [
+    "zayadur",
+    "khan",
+    "zader",
+    "profile",
+    "portfolio",
+    "projects",
+    "skills",
+    "experience"
+  ],
+  "author": "Zayadur Khan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zayadur/zayadur.github.io/issues"
+  },
+  "homepage": "https://zayadur.github.io"
+}
