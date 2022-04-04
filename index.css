@@ -1,0 +1,93 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 200vh;  /* testing { position: fixed } */
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+nav {
+    /* background */
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
+
+    /* position */
+    position: fixed;
+    text-align: center;
+    margin: -2% 0 0 0;
+    padding: 3% 0 2% 0;
+    width: 100%;
+}
+
+nav a {
+    /* font */
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+
+    /* space */
+    margin: 0 2% 0 2%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header img.portrait {
+    /* size */
+    border-radius: 50%;
+    height: 33%;
+    width: 33%;
+
+    /* position */
+    margin: 10% 0 0 0;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+
+header .tag {
+    background: white;
+    color: black;
+
+    /* size */
+    border-radius: 5px;
+    padding: 0 1% 0 1%;
+    width: 19%;
+
+    /* position */
+    margin: 33% 0 5% 0;
+    justify-items: flex-end;
+    align-items: flex-end;
+}
+
+section {
+    padding: 10% 0 0 0;
+}
+
+section h1 {
+    text-align: center;
+}
+
+footer {
+    /* background */
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+
+    /* position */
+    padding: 1% 0 1% 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
