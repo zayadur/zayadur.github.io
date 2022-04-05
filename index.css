@@ -5,12 +5,15 @@
 body {
     background-color: black;
     color: white;
-    height: 200vh;  /* testing { position: fixed } */
 }
 
 a {
     color: yellow;
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 0, 0.5);
 }
 
 nav {
@@ -23,12 +26,12 @@ nav {
     text-align: center;
     margin: -2% 0 0 0;
     padding: 3% 0 2% 0;
+    /* top right bottom left */
     width: 100%;
 }
 
 nav a {
     /* font */
-    color: white;
     font-size: 150%;
     text-decoration: none;
 
@@ -36,49 +39,58 @@ nav a {
     margin: 0 2% 0 2%;
 }
 
-header {
+section {
+    padding: 6% 0 0 0;
+}
+
+section h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+section#about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-header img.portrait {
+section#about img.portrait {
     /* size */
     border-radius: 50%;
     height: 33%;
     width: 33%;
 
     /* position */
-    margin: 10% 0 0 0;
     justify-items: flex-start;
     align-items: flex-start;
 }
 
-header .tag {
-    background: white;
-    color: black;
+section#about span {
+    color: yellow;
+}
 
-    /* size */
-    border-radius: 5px;
-    padding: 0 1% 0 1%;
-    width: 19%;
+section#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+section#skills .card {
+    margin: 0 1% 0 1%;
+}
+
+section#contact form {
     /* position */
-    margin: 33% 0 5% 0;
-    justify-items: flex-end;
-    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10% 0;
 }
 
-section {
-    padding: 10% 0 0 0;
-}
-
-section h1 {
-    text-align: center;
-}
-
-footer {
+section#contact footer {
     /* background */
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
@@ -90,4 +102,9 @@ footer {
     text-align: center;
     position: fixed;
     width: 100%;
+}
+
+
+section#contact a {
+    color: yellow;
 }

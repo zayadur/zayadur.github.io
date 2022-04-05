@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Zayadur Khan">
-        <meta name="description" content="An online profile showcasing Zayadur's portfolio.">
 
-        <!-- Open Graph Data -->
-        <meta property="og:title" content="zayadur khan">
-        <meta property="og:description" content="An online profile showcasing Zayadur's portfolio.">
-        <meta property="og:image" content="">
-        
-        <title>zayadur khan</title>
-        <link rel="icon" href="images/zealousPortrait.png">
-        <link rel="stylesheet" href="index.css">
-        <script src="index.js" defer></script>
-    </head>
-    <body>
-        <nav>
-            <a href="#about">about</a>
-            <a href="#skills">skills</a>
-            <a href="#projects">projects</a>
-            <a href="#contact">contact</a>
-        </nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Zayadur Khan">
+    <meta name="description" content="An online profile showcasing Zayadur's portfolio.">
 
-        <header id="about">
-            <img class="portrait" src="images/nashville.jpg" alt="A portrait image of Zayadur">
-            <h1 class="tag">
-                👋 Hello World, I'm Zayadur 🤓
-            </h1>
-        </header>
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="zayadur khan">
+    <meta property="og:description" content="An online profile showcasing Zayadur's portfolio.">
+    <meta property="og:image" content="">
 
-        <section id="skills">
-            <h1>Skills</h1>
-        </section>
+    <title>zayadur khan</title>
+    <link rel="icon" href="images/zealousPortrait.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
 
-        <section id="projects">
-            <h1>Projects</h1>
-        </section>
+<body>
+    <nav>
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+    </nav>
 
-        <footer>
-            <div id="contact">
+    <section id="about">
+        <img class="portrait" src="images/nashville.jpg" alt="A portrait image of Zayadur">
+        <h2>dabbling in <span>software</span>, <span>marketing</span>, and <span>web</span></h2>
+    </section>
 
-            </div>
-            <small><a href="https://github.com/zayadur/zayadur.github.io" target="_blank">zayadur</a> &copy; all rights reserved</small>
-        </footer>
-    </body>
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="card">
+            <img src="#" alt="">
+            <p>Sass</p>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <p>React</p>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <p>Node.js</p>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <p>MongoDB</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projects</h1>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Name">
+            <input type="text" id="email" placeholder="Email">
+            <textarea id="message" name="message" placeholder="Comments, questions, suggestions..."></textarea>
+            <input type="submit" value="submit">
+        </form>
+        <footer><a href="https://github.com/zayadur/zayadur.github.io" target="_blank">zayadur</a> &copy; all rights
+            reserved</footer>
+    </section>
+</body>
+
 </html>
