@@ -19,11 +19,11 @@
 
 <body>
     <nav>
-        <a href="#about">about</a>
-        <a href="#skills">skills</a>
-        <a href="#projects">projects</a>
-        <a href="#contact">contact</a>
-        <a href="documents/sewdmc.pdf" target="_blank">résumé</a>
+        <a class="navlink" href="#about">about</a>
+        <a class="navlink" href="#skills">skills</a>
+        <a class="navlink" href="#projects">projects</a>
+        <a class="navlink" href="#contact">contact</a>
+        <a class="navlink" href="documents/sewdmc.pdf" target="_blank">résumé</a>
     </nav>
 
     <section id="about">
@@ -62,29 +62,32 @@
 
         <!-- Tab links -->
         <div class="tab">
-            <button class="tablinks" onclick="openProjects(event, 'software')">Software</button>
-            <button class="tablinks" onclick="openProjects(event, 'social-media')">Social Media</button>
-            <button class="tablinks" onclick="openProjects(event, 'web-development')">Web Development</button>
+            <button class="tab" onclick="openProjects(event, 'software')">Software</button>
+            <button class="tab" onclick="openProjects(event, 'social-media')">Social Media</button>
+            <button class="tab" onclick="openProjects(event, 'web-development')">Web Development</button>
         </div>
         
         <!-- Tab content -->
-        <div id="software" class="tabcontent">
-            <h3>Data Structures & Algorithms</h3>
-            <p>project description</p>
+        <div id="software" class="description">
+            <h3>HackerRank</h3>
+            <p>Completing problems in order to solidify OOP principles.</p>
+            <a href="https://gist.github.com/zayadur" target="_blank">gists</a>
         </div>
         
-        <div id="social-media" class="tabcontent">
+        <div id="social-media" class="description">
             <h3>Swipe</h3>
-            <p>project description</p>
+            <p>Researching, templating, and scheduling social media posts to raise brand awareness.</p>
+            <a href="https://facebook.com/swipecardgame" target="_blank">facebook</a> | <a href="https://instagram.com/swipecardgame" target="_blank">instagram</a> | <a href="https://twitter.com/swipecardgame" target="_blank">twitter</a>
         </div>
 
-        <div id="web-development" class="tabcontent">
+        <div id="web-development" class="description">
             <h3>Neo Politico</h3>
-            <p>project description</p>
+            <p>A static landing page to distribute articles and publications for a student-run high school political journal.</p>
+            <p><a href="https://zayadur.github.io/neopolitico">project</a> | <a href="https://github.com/zayadur/neopolitico">source</a></p>
             <h3>Swipe</h3>
-            <p>project description</p>
+            <p>An elegant and dynamic landing page with interactions demonstrating how the product is used.</p>
+            <p><a href="https://swipecardgame.com">project</a> | <a href="https://github.com/zayadur/com.swipecardgame">source</a></p>
         </div>
-
     </section>
 
     <section id="contact">

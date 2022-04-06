@@ -25,8 +25,7 @@ nav {
     position: fixed;
     text-align: center;
     margin: -2% 0 0 0;
-    padding: 3% 0 2% 0;
-    /* top right bottom left */
+    padding: 3% 0 2% 0; /* top right bottom left */
     width: 100%;
 }
 
@@ -49,14 +48,14 @@ section h1 {
     width: 100%;
 }
 
-section#about {
+#about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section#about img.portrait {
+#about img.portrait {
     /* size */
     border-radius: 50%;
     height: 33%;
@@ -67,18 +66,18 @@ section#about img.portrait {
     align-items: flex-start;
 }
 
-section#about span {
+#about span {
     color: yellow;
 }
 
-section#skills .skills {
+#skills .skills {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-section#skills .card {
+#skills .card {
     background-color: white;
     color: black;
     border-radius: 5px;
@@ -87,63 +86,47 @@ section#skills .card {
     text-align: center;
 }
 
-section#skills .card img {
+#skills .card img {
     width: 48px;
     height: 48px;
 }
 
-section#skills .card p.description {
+#skills .card p.description {
     font-size: 86%;
     text-align: justify;
 }
 
-section#projects {
+#projects {
+    /* position */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/* Style the tab */
-section#projects .tab {
+
+#projects .tab {
+    /* position */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 50%;
+
+    /* size */
+    width: 33%;
 }
 
-/* Style the buttons that are used to open the tab content */
-section#projects .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
+#projects .tab button {
+    background-color: white;
+    border-radius: 5px;
     cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+    padding: 1%;
 }
 
-/* Change background color of buttons on hover */
-section#projects .tab button:hover {
-    background-color: #ddd;
+#projects .description {
+    display: none;  /* hides project descriptions by default */
+    
 }
 
-/* Create an active/current tablink class */
-section#projects .tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-section#projects .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-
-section#contact form {
+#contact form {
     /* position */
     display: flex;
     flex-direction: column;
@@ -152,7 +135,7 @@ section#contact form {
     margin: 0 0 10% 0;
 }
 
-section#contact footer {
+#contact footer {
     /* background */
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
@@ -167,6 +150,6 @@ section#contact footer {
 }
 
 
-section#contact a {
+#contact a {
     color: yellow;
 }
