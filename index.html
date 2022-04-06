@@ -23,37 +23,68 @@
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
         <a href="#contact">contact</a>
+        <a href="documents/sewdmc.pdf" target="_blank">résumé</a>
     </nav>
 
     <section id="about">
         <img class="portrait" src="images/nashville.jpg" alt="A portrait image of Zayadur">
-        <h2>dabbling in <span>software</span>, <span>marketing</span>, and <span>web</span></h2>
+        <h2>dabbling in <span>software</span>, <span>social media</span>, and <span>web development</span></h2>
     </section>
 
     <section id="skills">
         <h1>Skills</h1>
         <div class="skills">
             <div class="card">
-                <img src="images/sass.svg" alt="Logo for Sass"> CSS and Sass
-                <p>Working experience using Sass to make styling efficient and stylesheets cleaner.</p>
+                <img src="images/java.svg" alt="Logo for Java">
+                <p>Software</p>
+                <p class="description">Master of OOP using Java</p>
             </div>
             <div class="card">
-                <img src="images/react.svg" alt="Logo for React"> JavaScript and React
-                <p>Knowledge of how to create projects and structure them as SPAs.</p>
+                <img src="images/figma.svg" alt="Hashtag icon"> <img src="images/buffer.svg" alt="Hashtag icon">
+                <p>Social Media</p>
+                <p class="description">Familiar with templating and scheduling posts.</p>
             </div>
             <div class="card">
-                <img src="images/node-js.svg" alt="Logo for Node.js"> Node.js
-                <p>The holy grail of my workspaces. I use Node.js for everything.</p>
+                <img src="images/sass.svg" alt="Logo for Sass"> <img src="images/react.svg" alt="Logo for React">
+                <p>Web Development</p>
+                <p class="description">Expert at HTML & CSS. Familiar with JS & React.</p>
             </div>
             <div class="card">
-                <img src="images/database.svg" alt="Logo for databases"> SQL and JSON
-                <p>My go-to choice for handling information is document-based.</p>
+                <img src="images/database.svg" alt="Generic icon for databases">
+                <p>Data</p>
+                <p class="description">Proficient with MySQL and MongoDB.</p>
             </div>
         </div>
     </section>
 
     <section id="projects">
         <h1>Projects</h1>
+
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openProjects(event, 'software')">Software</button>
+            <button class="tablinks" onclick="openProjects(event, 'social-media')">Social Media</button>
+            <button class="tablinks" onclick="openProjects(event, 'web-development')">Web Development</button>
+        </div>
+        
+        <!-- Tab content -->
+        <div id="software" class="tabcontent">
+            <h3>Data Structures & Algorithms</h3>
+            <p>project description</p>
+        </div>
+        
+        <div id="social-media" class="tabcontent">
+            <h3>Swipe</h3>
+            <p>project description</p>
+        </div>
+
+        <div id="web-development" class="tabcontent">
+            <h3>Neo Politico</h3>
+            <p>project description</p>
+            <h3>Swipe</h3>
+            <p>project description</p>
+        </div>
+
     </section>
 
     <section id="contact">
