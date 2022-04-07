@@ -10,17 +10,17 @@ function highlightLinks(event, linkName) {
         link[i].className = link[i].className.replace(" active", "");
     }
 
-    document.getElementByClass
+    
 }
 
 /* tabbed view for projects section */
 function openProjects(event, projectName) {
-    var i, description, tab;
+    var i, projectList, tab;
 
     // hide all tabs by default
-    description = document.getElementsByClassName("description");
-    for (i = 0; i < description.length; i++) {
-        description[i].style.display = "none";
+    projectList = document.getElementsByClassName("projectList");
+    for (i = 0; i < projectList.length; i++) {
+        projectList[i].style.display = "none";
     }
 
     // set all tabs to in-"active"
