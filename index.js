@@ -1,17 +1,7 @@
 
 /* make nav link "active" on view */
 
-function highlightLinks(event, linkName) {
-    var i, navlink;
 
-    // reset all links to in-"active"
-    link = document.getElementsByClassName("navlink");
-    for(i = 0; i < linkName.length; i++) {
-        link[i].className = link[i].className.replace(" active", "");
-    }
-
-    
-}
 
 /* tabbed view for projects section */
 function openProjects(event, projectName) {
